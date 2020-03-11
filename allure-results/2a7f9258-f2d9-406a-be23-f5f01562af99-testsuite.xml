@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583499056085' stop='1583499100242'>
+    <name>whitehall next gen page</name>
+    <title>whitehall next gen page</title>
+    <test-cases>
+        <test-case start='1583499056085' status='broken' stop='1583499069476'>
+            <name>should have open the login page</name>
+            <title>should have open the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Parameter for "url" command needs to be type of string</message>
+                <stack-trace>Error: Parameter for "url" command needs to be type of string
+                    at Browser.url (E:\skumar-auto\node_modules\webdriverio\build\commands\browser\url.js:16:11)
+                    at Browser.runCommandWithHooks (E:\skumar-auto\node_modules\@wdio\sync\build\wrapCommand.js:88:30)
+                    at Browser.runCommandWithHooks (E:\skumar-auto\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (E:\skumar-auto\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Context.&lt;anonymous> (E:\skumar-auto\steps\login.js:12:24)
+                    at Context.executeSync (E:\skumar-auto\node_modules\@wdio\sync\build\index.js:56:18)
+                    at E:\skumar-auto\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583499069477' status='broken' stop='1583499083961'>
+            <name>should deny access with wrong creds</name>
+            <title>should deny access with wrong creds</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "#div > p-messages > div" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "#div > p-messages > div" because element wasn't found
+                    at implicitWait (E:\skumar-auto\node_modules\webdriverio\build\utils\implicitWait.js:22:13)
+                    at Element.runCommandWithHooks (E:\skumar-auto\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (E:\skumar-auto\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.elementErrorHandlerCallback (E:\skumar-auto\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at Context.it (E:\skumar-auto\steps\login.js:27:36)
+                    at Context.executeSync (E:\skumar-auto\node_modules\@wdio\sync\build\index.js:56:18)
+                    at E:\skumar-auto\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583499083961' status='passed' stop='1583499100241'>
+            <name>should allow access with creds</name>
+            <title>should allow access with creds</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

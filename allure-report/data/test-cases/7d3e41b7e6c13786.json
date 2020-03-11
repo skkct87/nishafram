@@ -1,0 +1,108 @@
+{
+  "uid" : "7d3e41b7e6c13786",
+  "name" : "should have open the login page",
+  "fullName" : "whitehall next gen page.should have open the login page",
+  "historyId" : "48c31280a7182a67b2dc24e09da94392",
+  "time" : {
+    "start" : 1583503131543,
+    "stop" : 1583503147146,
+    "duration" : 15603
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1583503131596,
+        "stop" : 1583503141981,
+        "duration" : 10385
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6dc99383846e6056",
+        "name" : "Request",
+        "source" : "6dc99383846e6056.json",
+        "type" : "application/json",
+        "size" : 54
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1583503141982,
+        "stop" : 1583503146140,
+        "duration" : 4158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "789e63b455ee5b7d",
+        "name" : "Response",
+        "source" : "789e63b455ee5b7d.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "whitehall next gen page"
+  }, {
+    "name" : "testClass",
+    "value" : "whitehall next gen page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have open the login page"
+  }, {
+    "name" : "package",
+    "value" : "whitehall next gen page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d3e41b7e6c13786.json",
+  "parameterValues" : [ "chrome" ]
+}

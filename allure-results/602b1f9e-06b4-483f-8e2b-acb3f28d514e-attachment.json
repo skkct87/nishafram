@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#myAccountUl > li:nth-child(2) > a > span"
+}

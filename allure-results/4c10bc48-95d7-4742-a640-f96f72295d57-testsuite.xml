@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583425671506' stop='1583425675851'>
+    <name>webdriver.io page</name>
+    <title>webdriver.io page</title>
+    <test-cases>
+        <test-case start='1583425671506' status='broken' stop='1583425675851'>
+            <name>should have the right title</name>
+            <title>should have the right title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Invalid Chai property: toHaveTitle</message>
+                <stack-trace>Error: Invalid Chai property: toHaveTitle
+                    at Object.proxyGetter [as get] (E:\skumar-auto\node_modules\chai\lib\chai\utils\proxify.js:78:17)
+                    at Context.it (E:\skumar-auto\steps\login.js:6:24)
+                    at Context.executeSync (E:\skumar-auto\node_modules\@wdio\sync\build\index.js:56:18)
+                    at E:\skumar-auto\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

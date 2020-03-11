@@ -1,0 +1,56 @@
+{
+  "uid" : "2f98a6cbee95478",
+  "name" : "should have open the login page",
+  "fullName" : "whitehall next gen page.should have open the login page",
+  "historyId" : "48c31280a7182a67b2dc24e09da94392",
+  "time" : {
+    "start" : 1583495026526,
+    "stop" : 1583495039983,
+    "duration" : 13457
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "whitehall next gen page"
+  }, {
+    "name" : "testClass",
+    "value" : "whitehall next gen page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have open the login page"
+  }, {
+    "name" : "package",
+    "value" : "whitehall next gen page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f98a6cbee95478.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,316 @@
+{
+  "uid" : "a1b45b565258c26b",
+  "name" : "should deny access with wrong creds",
+  "fullName" : "whitehall next gen page.should deny access with wrong creds",
+  "historyId" : "6f8da14d0ea58a84d6f2280a64f31d5b",
+  "time" : {
+    "start" : 1583909617567,
+    "stop" : 1583909622228,
+    "duration" : 4661
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "whitehall next gen page"
+  }, {
+    "name" : "testClass",
+    "value" : "whitehall next gen page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should deny access with wrong creds"
+  }, {
+    "name" : "package",
+    "value" : "whitehall next gen page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "49eb936e30e3584",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583909617567,
+        "stop" : 1583909622228,
+        "duration" : 4661
+      }
+    }, {
+      "uid" : "32e0a4505d8847ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583909301436,
+        "stop" : 1583909306073,
+        "duration" : 4637
+      }
+    }, {
+      "uid" : "fd3bbd3335af5039",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583909301436,
+        "stop" : 1583909306073,
+        "duration" : 4637
+      }
+    }, {
+      "uid" : "3f9650c83790dd8e",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583908419947,
+        "stop" : 1583908434988,
+        "duration" : 15041
+      }
+    }, {
+      "uid" : "4bdb0cf7280a5c83",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583908419947,
+        "stop" : 1583908434988,
+        "duration" : 15041
+      }
+    }, {
+      "uid" : "c8c105a384278d2",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583504219616,
+        "stop" : 1583504234643,
+        "duration" : 15027
+      }
+    }, {
+      "uid" : "be9cd55f5a21131",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583504219616,
+        "stop" : 1583504234643,
+        "duration" : 15027
+      }
+    }, {
+      "uid" : "aee582f6024f603c",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583503976174,
+        "stop" : 1583503991225,
+        "duration" : 15051
+      }
+    }, {
+      "uid" : "80acfcbdc38a4d4b",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583503976174,
+        "stop" : 1583503991225,
+        "duration" : 15051
+      }
+    }, {
+      "uid" : "249c5f2e5beece97",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583503840059,
+        "stop" : 1583503855091,
+        "duration" : 15032
+      }
+    }, {
+      "uid" : "3a266a0210e27c4c",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583503840059,
+        "stop" : 1583503855090,
+        "duration" : 15031
+      }
+    }, {
+      "uid" : "b6f9c1efc19a93b9",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583503147147,
+        "stop" : 1583503162129,
+        "duration" : 14982
+      }
+    }, {
+      "uid" : "a5865eb543e7f30e",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583503147147,
+        "stop" : 1583503162128,
+        "duration" : 14981
+      }
+    }, {
+      "uid" : "7a22557836ab25c7",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1583501806768,
+        "stop" : 1583501807148,
+        "duration" : 380
+      }
+    }, {
+      "uid" : "e02341022a51a34d",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1583501080687,
+        "stop" : 1583501081062,
+        "duration" : 375
+      }
+    }, {
+      "uid" : "969d302bb0d1e686",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1583500785184,
+        "stop" : 1583500785553,
+        "duration" : 369
+      }
+    }, {
+      "uid" : "ffe32b52e541f7ef",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1583500639940,
+        "stop" : 1583500640312,
+        "duration" : 372
+      }
+    }, {
+      "uid" : "fa09878ad8887a55",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1583500519496,
+        "stop" : 1583500519864,
+        "duration" : 368
+      }
+    }, {
+      "uid" : "63cc6d220da11301",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583499069477,
+        "stop" : 1583499083961,
+        "duration" : 14484
+      }
+    }, {
+      "uid" : "ba3f05e1123a0196",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583495039984,
+        "stop" : 1583495055007,
+        "duration" : 15023
+      }
+    }, {
+      "uid" : "2019a2528875a652",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1583494872830,
+        "stop" : 1583494873121,
+        "duration" : 291
+      }
+    }, {
+      "uid" : "736b03f5df81d438",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583494107308,
+        "stop" : 1583494122340,
+        "duration" : 15032
+      }
+    }, {
+      "uid" : "c8d0a459f293df07",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583493929095,
+        "stop" : 1583493944148,
+        "duration" : 15053
+      }
+    }, {
+      "uid" : "ff76283f94547fd2",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583493749059,
+        "stop" : 1583493764108,
+        "duration" : 15049
+      }
+    }, {
+      "uid" : "2f53358b12f3bf8e",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583492991101,
+        "stop" : 1583493005674,
+        "duration" : 14573
+      }
+    }, {
+      "uid" : "abe636b86fd0ccc",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583492159838,
+        "stop" : 1583492174912,
+        "duration" : 15074
+      }
+    }, {
+      "uid" : "2e92a58c3935ba7e",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583491902312,
+        "stop" : 1583491917337,
+        "duration" : 15025
+      }
+    }, {
+      "uid" : "f374621fe97d9bf",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583480112746,
+        "stop" : 1583480127779,
+        "duration" : 15033
+      }
+    }, {
+      "uid" : "37b425dd49737050",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#div > p-messages > div\" because element wasn't found",
+      "time" : {
+        "start" : 1583479086169,
+        "stop" : 1583479101273,
+        "duration" : 15104
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a1b45b565258c26b.json",
+  "parameterValues" : [ "chrome" ]
+}

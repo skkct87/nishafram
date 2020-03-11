@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583476135749' stop='1583476152616'>
+    <name>whitehall next gen page</name>
+    <title>whitehall next gen page</title>
+    <test-cases>
+        <test-case start='1583476135750' status='broken' stop='1583476152614'>
+            <name>should have open the login page</name>
+            <title>should have open the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>LoginPage is not defined</message>
+                <stack-trace>ReferenceError: LoginPage is not defined
+                    at Context.&lt;anonymous> (E:\skumar-auto\steps\login.js:14:9)
+                    at Context.executeSync (E:\skumar-auto\node_modules\@wdio\sync\build\index.js:56:18)
+                    at E:\skumar-auto\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

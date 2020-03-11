@@ -1,0 +1,71 @@
+[ {
+  "uid" : "b6d3e20413858695",
+  "name" : "should have the right title",
+  "time" : {
+    "start" : 1583426315855,
+    "stop" : 1583426320674,
+    "duration" : 4819
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bfb55f14d94b7c97",
+  "name" : "should have the right title",
+  "time" : {
+    "start" : 1583474271315,
+    "stop" : 1583474285267,
+    "duration" : 13952
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a1b45b565258c26b",
+  "name" : "should deny access with wrong creds",
+  "time" : {
+    "start" : 1583909617567,
+    "stop" : 1583909622228,
+    "duration" : 4661
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0ae29c2d77d7642",
+  "name" : "should allow access with creds",
+  "time" : {
+    "start" : 1583909622229,
+    "stop" : 1583909638584,
+    "duration" : 16355
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b69972d199c8608f",
+  "name" : "should have open the login page",
+  "time" : {
+    "start" : 1583909603147,
+    "stop" : 1583909617566,
+    "duration" : 14419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66ba18300b11c59",
+  "name" : "should have the right title",
+  "time" : {
+    "start" : 1583414147440,
+    "stop" : 1583414195887,
+    "duration" : 48447
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49905e991971d2c0",
+  "name" : "should allow access with wrong creds",
+  "time" : {
+    "start" : 1583491917337,
+    "stop" : 1583491932584,
+    "duration" : 15247
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

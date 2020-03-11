@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#heading > div > div > ul > li.dropdown.profile-dropdown > a > span"
+}

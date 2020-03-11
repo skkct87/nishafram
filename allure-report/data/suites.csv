@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Thu Mar 05 22:08:35 IST 2020","Thu Mar 05 22:08:40 IST 2020","4819","","webdriver.io page","","webdriver.io page","should have the right title","should have the right title",""
+"broken","Fri Mar 06 11:27:51 IST 2020","Fri Mar 06 11:28:05 IST 2020","13952","","whitehall next gen page","","whitehall next gen page","should have the right title","should have the right title",""
+"passed","Wed Mar 11 12:23:37 IST 2020","Wed Mar 11 12:23:42 IST 2020","4661","","whitehall next gen page","","whitehall next gen page","should deny access with wrong creds","should deny access with wrong creds",""
+"passed","Wed Mar 11 12:23:42 IST 2020","Wed Mar 11 12:23:58 IST 2020","16355","","whitehall next gen page","","whitehall next gen page","should allow access with creds","should allow access with creds",""
+"passed","Wed Mar 11 12:23:23 IST 2020","Wed Mar 11 12:23:37 IST 2020","14419","","whitehall next gen page","","whitehall next gen page","should have open the login page","should have open the login page",""
+"passed","Thu Mar 05 18:45:47 IST 2020","Thu Mar 05 18:46:35 IST 2020","48447","","webdriver.io page","","webdriver.io page","should have the right title","should have the right title",""
+"broken","Fri Mar 06 16:21:57 IST 2020","Fri Mar 06 16:22:12 IST 2020","15247","","whitehall next gen page","","whitehall next gen page","should allow access with wrong creds","should allow access with wrong creds",""

@@ -1,0 +1,80 @@
+{
+  "uid" : "49905e991971d2c0",
+  "name" : "should allow access with wrong creds",
+  "fullName" : "whitehall next gen page.should allow access with wrong creds",
+  "historyId" : "e11ded70ddd2017dab4d476bb10ac3e4",
+  "time" : {
+    "start" : 1583491917337,
+    "stop" : 1583491932584,
+    "duration" : 15247
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call getText on element with selector \"body > app-root > app-main > div > div > div.layout-menu > p-scrollpanel > div > div.ui-scrollpanel-wrapper > div > app-menu > ul > li.ng-tns-c2-18.ng-star-inserted.active-menuitem > a > span\" because element wasn't found",
+  "statusTrace" : "Error: Can't call getText on element with selector \"body > app-root > app-main > div > div > div.layout-menu > p-scrollpanel > div > div.ui-scrollpanel-wrapper > div > app-menu > ul > li.ng-tns-c2-18.ng-star-inserted.active-menuitem > a > span\" because element wasn't found\n                    at implicitWait (E:\\skumar-auto\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:22:13)\n                    at Element.runCommandWithHooks (E:\\skumar-auto\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (E:\\skumar-auto\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.elementErrorHandlerCallback (E:\\skumar-auto\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at Context.it (E:\\skumar-auto\\steps\\login.js:41:36)\n                    at Context.executeSync (E:\\skumar-auto\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at E:\\skumar-auto\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "whitehall next gen page"
+  }, {
+    "name" : "testClass",
+    "value" : "whitehall next gen page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should allow access with wrong creds"
+  }, {
+    "name" : "package",
+    "value" : "whitehall next gen page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "876af4a232722b72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583480127780,
+        "stop" : 1583480142637,
+        "duration" : 14857
+      }
+    }, {
+      "uid" : "ace3ccb837e6afc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583479101273,
+        "stop" : 1583479116222,
+        "duration" : 14949
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "49905e991971d2c0.json",
+  "parameterValues" : [ "chrome" ]
+}

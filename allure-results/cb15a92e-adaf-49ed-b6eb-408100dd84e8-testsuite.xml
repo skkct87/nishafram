@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583479072685' stop='1583479116224'>
+    <name>whitehall next gen page</name>
+    <title>whitehall next gen page</title>
+    <test-cases>
+        <test-case start='1583479072686' status='passed' stop='1583479086168'>
+            <name>should have open the login page</name>
+            <title>should have open the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583479086169' status='broken' stop='1583479101273'>
+            <name>should deny access with wrong creds</name>
+            <title>should deny access with wrong creds</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "#div > p-messages > div" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "#div > p-messages > div" because element wasn't found
+                    at implicitWait (E:\skumar-auto\node_modules\webdriverio\build\utils\implicitWait.js:22:13)
+                    at Element.runCommandWithHooks (E:\skumar-auto\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (E:\skumar-auto\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.elementErrorHandlerCallback (E:\skumar-auto\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at Context.it (E:\skumar-auto\steps\login.js:26:36)
+                    at Context.executeSync (E:\skumar-auto\node_modules\@wdio\sync\build\index.js:56:18)
+                    at E:\skumar-auto\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583479101273' status='passed' stop='1583479116222'>
+            <name>should allow access with wrong creds</name>
+            <title>should allow access with wrong creds</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

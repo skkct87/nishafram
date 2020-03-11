@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "0ecb7a51c86acbcf2344c75a3d049fac",
+    "name" : "whitehall next gen page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "601e7f3c0a9c957fa7f229ca6a567c98",
+    "name" : "webdriver.io page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

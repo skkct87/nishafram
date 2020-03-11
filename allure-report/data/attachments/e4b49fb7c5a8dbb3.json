@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "body > app-root > app-main > div > div > div.layout-main > app-breadcrumb > div > div > a:nth-child(3) > i"
+}
