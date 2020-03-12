@@ -23,7 +23,7 @@ describe('whitehall next gen page', function() {
             LoginPage.password.setValue('@Tarun$123')
             browser.pause(1000)
             LoginPage.signin.click()  
-            //expect(LoginPage.alert.getText()).to.contain('Incorrect usermail or password.')
+            //expect.equals(('Incorrect usermail or password.'),LoginPage.loginerr.getValue())
         })
 
 
@@ -31,10 +31,12 @@ describe('whitehall next gen page', function() {
         LoginPage.username.click()
         browser.pause(1000)
         LoginPage.username.setValue('tecdune@tecdune.com')
+        assert.equal('tecdune@tecdune.com',LoginPage.username.getValue())
         browser.pause(1000)
         LoginPage.password.click()
         browser.pause(1000);
         LoginPage.password.setValue('Whitehall2020!')
+        assert.equal('Whitehall2020!',LoginPage.password.getValue())
         browser.pause(1000)
         LoginPage.signin.click()
         browser.takeScreenshot()
