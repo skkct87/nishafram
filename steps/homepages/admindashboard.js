@@ -27,7 +27,7 @@ describe('whitehall next gen Dashboard & Tabs', function() {
             browser.pause(1000)
             LoginPage.signin.click()
             browser.takeScreenshot()
-            browser.pause(10000)
+            browser.pause(1000)
         });
 
 

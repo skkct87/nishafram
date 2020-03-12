@@ -14,19 +14,19 @@ get invoices() {
 }
 
 get invoicesnew() {
-    return $('#ui-tabpanel-6-label > span').getAttribute('Invoices')
+    return $$('#ui-tabpanel-0')
 }
 
 get publishinvoice() {
-    return $('#ui-tabpanel-1-label > span').getAttribute('Publish Invoices')
+    return $$('#ui-tabpanel-1')
 }
 
 get uploadinvoice() {
-    return $('#ui-tabpanel-2-label > span').getAttribute('Upload Invoices')
+    return $$('#ui-tabpanel-2')
 }
 
 get invoicehistory() {
-    return $('#ui-tabpanel-3-label > span').getAttribute('Invoice History')
+    return $$('#ui-tabpanel-3')
 }
 
 get suppliersetup() {
